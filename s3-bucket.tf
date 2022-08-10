@@ -1,4 +1,5 @@
 module "s3-bucket" {
-  source  = "app.terraform.io/hashicat-aws009/s3-bucket/aws"
-  version = "1.0.4"
+  source  = "terraform-aws-modules/s3-bucket/aws"
+  version = "2.8.0"
+  # insert the 5 required variables here
 }
